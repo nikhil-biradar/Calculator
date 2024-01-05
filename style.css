@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    margin: 0;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3B4664; 
+    font-family: 'Inter';
+  }
+
+  html {
+    overflow-y: hidden;
+  }
+  
+  #calculator {
+    border: none;
+    position: fixed;
+    width: 330px;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #252D44;
+  }
+  
+  input, button {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: #FFF;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #181F32;
+  }
+
+  input{
+    height: 70px;
+    text-align: right;
+  }
+
+  #display {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .grid {
+    display: grid;
+    grid-gap: 10px;
+    border-radius: 12px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .delete {
+    border: none;
+    color: #FFF;
+    font-weight: 550;
+    border-radius: 11px;
+    background-color: #647299; 
+  }
+  
+  .reset {
+    border: none;
+    color: #FFF;
+    flex-shrink: 0;
+    font-weight: 550;
+    grid-column: span 2;
+    border-radius: 11px;
+    background-color: #647299; 
+  }
+  
+  .equals {
+    color: #FFF;
+    border: none;
+    grid-column: span 2;
+    border-radius: 11px; 
+    background-color: #D13F30; 
+  }
+  
+  .text{
+    text-align: right;
+    margin-right: 10px;
+  }
+
+  .no{
+    border: none;
+    font-size: 20px;
+    font-weight: 800;
+    color: #3B4664;
+    text-align: center;
+    font-family: Inter;
+    border-radius: 11px;
+    background-color: #EAE3DB;
+  }
+
+  
